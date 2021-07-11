@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hound_Controller
+  m_Controller: {fileID: 9100000, guid: d883ae17f7bb44e1fb55e82f03b9fce0, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: dc88eee13992f4efe82ba1bcc74e3810, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b12e6fba366254bdc8400197290a3565, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 91f7f12d97ced417d8083870412b6bf3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1b81de4324cd841da8af37ef7a589627, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c248a70367e0b4995b170b945793a903, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4dc1b62003e5e4365bb1bc7de56df84e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 74c03bd4a43924737946b1ade19af873, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 476b87ea1b19941178b907063a86f346, type: 2}
