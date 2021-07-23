@@ -13,7 +13,6 @@ public class Squad : MonoBehaviour
     AStar _pathfind;
     List<Vector3> _path = new List<Vector3>();
     
-    public static event Action<List<Vector3>> BuildPathEvent;
     public static event Action<Vector3> ReachedEvent;
 
     void Awake()

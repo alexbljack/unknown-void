@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EnemyEncounter : MonoBehaviour
+public class Encounter : MonoBehaviour
 {
     public List<Enemy> enemies;
     AIRoaming _ai;
@@ -16,12 +16,12 @@ public class EnemyEncounter : MonoBehaviour
 
     void OnEnable()
     {
-        LevelController.PauseEvent += OnPause;
+        LevelManager.PauseEvent += OnPause;
     }
 
     void OnDisable()
     {
-        LevelController.PauseEvent -= OnPause;
+        LevelManager.PauseEvent -= OnPause;
     }
 
     void OnTriggerEnter2D(Collider2D other)
